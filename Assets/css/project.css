@@ -17,7 +17,6 @@ b{
   word-wrap: break-word;
 }
 .ctr{
-  
   text-align: center;
 }
 .backgr img {
@@ -36,7 +35,7 @@ b{
     height: auto;
 }
 .btn-align{
-  display:flex;
+  display: flex;
 }
 /* buttons styling */
 
