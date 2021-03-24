@@ -89,8 +89,9 @@ body {
     transition: 100ms ease-in-out;
   }
   .fourth:hover {
+    border-color: green;
     background-image: linear-gradient(to right, green, rgb(1, 45, 1));
-    color: floralwhite;
-    background-position: 100%;
+    color: white;
+    background-position: 0;
   }
   
