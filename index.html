@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0,minimum-scale=1, maximum-scale=1" />
+
+    <title>Rishu20</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" id="theme-link">
+    <link rel="shortcut icon" href="./assets/images/rey-removebg-preview.png" />
+    <script src="https://kit.fontawesome.com/bb8ae9b273.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <section class="section">
+        <!--navigation------------------------->
+        <nav id='navbar'>
+            <!--logo-->
+            <div onclick="window.open('./#','_self')" class="logo" alt='home' title="Home">RI<b>.</b>SHU<b>20</b></div>
+            <!--menu-->
+            <ul>
+                <li><a href="./#about" onclick="toggle_close()">About</a></li>
+                <li><a href="./#project" onclick="toggle_close()">Project</a></li>
+                <li><a href="./#contact" onclick="toggle_close()">Contact</a></li>
+                <li><a href="./gallery.html" onclick="toggle_close()">Gallery</a></li>
+                <span></span>
+
+            </ul>
+            <!--bars--------------->
+            <div class="toggle"></div>
+        </nav>
+    </section>
+
+    <div class="about-container" id="about">
+        <!--img-->
+        <img src="./assets/images/Project1.png" />
+        <!--about-me-text-->
+        <div class="about-text">
+            <p>BlackArch WSL</p>
+            <p>For installation details, please refer to the wiki</p>
+            <p>
+                1. Download the BlackArch.7z file <br>
+                2. Extract all files to same directory<br>
+                <i>(Please extract Blackarch.zip to a folder. Avoid using Program Files)</i><br>
+                3. Run BlackArch.exe to Extract rootfs and Register to WSL<br>
+                <i>(The “.exe” filename is being used to register the WSL instance name.**If want to have have
+                    multiple installs all you have to do is rename it, so that you can
+                    register with a different name. )<i>
+            </p>
+            <div class="about-btn">
+                <button onclick="window.open('https://github.com/Rishu20/Blackarchwsl/wiki','target blank')">
+                    <i class="fab fa-wikipedia-w"></i>&nbsp; View wiki
+                </button>
+                <button ]onclick="window.open('https://github.com/Rishu20/Blackarchwsl/releases/download/v1.0/BlackArch.7z','target blank')">
+                    <i class="fas fa-download"></i>&nbsp;Download now
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--footer--------------->
+    <footer>
+        <span>Created By <a href="https://www.sushantrishav.live/" target='_black'>Shushant Rishav</a> | <span
+                class="far fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
+    <!--social-attach-bar-->
+    <div class="social">
+
+        <div onclick="window.open('https://github.com/Rishu20','target blank')"><i class="fab fa-github"></i></div>
+        <div onclick="window.open('https://twitter.com/rishavshushant','target blank')"><i class="fab fa-twitter"></i>
+        </div>
+        <div class="btn btn-toggle" onclick="imagefun()"><i class="fas fa-moon btn-toggle"></i></div>
+        <div onclick="window.open('mailto:sushantrishav90@gmail.com')" title="mail"><i class="fas fa-envelope"></i>
+        </div>
+        <div onclick="window.open('https://www.linkedin.com/in/shushantrishav/','target blank',)"><i
+                class="fab fa-linkedin"></i></div>
+    </div>
+
+    
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
