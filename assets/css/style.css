@@ -96,9 +96,9 @@ nav ul li a:hover {
   align-items: center;
 }
 .about-container img {
-    margin: 20px;
-  height: 350px;
-  width: 650px;
+  margin: 100px;
+  height: auto;
+  width: 60%;
   border-radius: 15px;
   box-shadow: 2px 5px 15px black;
 }

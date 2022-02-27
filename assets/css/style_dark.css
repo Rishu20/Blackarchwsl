@@ -96,9 +96,9 @@ nav ul li a:hover {
   align-items: center;
 }
 .about-container img {
-    margin: 20px;
-  height: 550px;
-  width: 650px;
+  margin: 100px;
+  height: auto;
+  width: 60%;
   border-radius: 15px;
   box-shadow: 2px 5px 15px rgb(255, 255, 255);
 }
@@ -278,7 +278,7 @@ footer span a:hover {
   section {
     height: 95px;
     background-image: none;
-    background-color: #f7f7f7;
+    background-color: #000000;
   }
   .toggle {
     display: block;
@@ -286,7 +286,7 @@ footer span a:hover {
   nav ul {
     margin: 0px;
     padding: 0px;
-    background-color: silver;
+    background-color: rgba(0, 0, 0, 0.74);
     flex-direction: column;
     position: fixed;
     left: 0;
@@ -307,13 +307,14 @@ footer span a:hover {
     font-family: calibri;
     font-size: 1.4em;
     text-transform: uppercase;
-    color: #282828;
+    color: #ffffff;
   }
   nav ul li a:hover {
-    color: #121212;
+    color: #ff0404;
   }
 
   .toggle:before {
+    color: #e6e3e3;
     content: "\f0c9";
     font-family: fontAwesome;
     line-height: 30px;
