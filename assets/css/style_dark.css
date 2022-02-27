@@ -4,7 +4,7 @@ html{
   scroll-behavior: smooth;
 }
 body {
-  background-color: #121212;
+  background-color: #000000;
   margin: 0px;
   padding: 0px;
 }
@@ -15,11 +15,8 @@ a {
   text-decoration: none;
 }
 .section {
-  width: 99%;
+  width: 100%;
   height: 30vh;
-  background-image: url("../images/bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -33,8 +30,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  background-color: #282828;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  background-color: #000000;
+  box-shadow: 2px 2px 12px rgba(255, 255, 255, 0.548);
   padding: 0px 5%;
 }
 nav ul {
@@ -49,7 +46,7 @@ nav ul li a {
   width: 100%;
   margin: 30px;
   font-family: myriad pro regular;
-  color: #fff;
+  color: #ffffff;
   font-size: 15px;
   font-weight: 700;
 }
@@ -68,7 +65,7 @@ nav ul li a:hover {
 }
 .logo {
   font-family: RoadTest;
-  color: #fff;
+  color: #ffffff;
   font-size: 22px;
 }
 .logo b {
@@ -88,9 +85,9 @@ nav ul li a:hover {
 .about-container {
   width: 80%;
   height: fit-content;
-  background: #181818;
+  background: #000000;
   border-radius: 20px;
-  box-shadow: 2px 5px 15px gray;
+  box-shadow: 2px 2px 12px rgba(255, 255, 255, 0.2);
   display: flex;
   flex-direction: column;
   margin: -7% auto 20px auto;
@@ -100,18 +97,17 @@ nav ul li a:hover {
 }
 .about-container img {
     margin: 20px;
-  height: 350px;
+  height: 550px;
   width: 650px;
   border-radius: 15px;
-  border: 2px solid gray;
-  box-shadow: 2px 5px 15px rgb(59, 59, 59);
+  box-shadow: 2px 5px 15px rgb(255, 255, 255);
 }
 .about-text {
   width: 500px;
   text-align: center;
 }
 .about-text p:nth-child(1) {
-  color: #fff;
+  color: #ffffff;
   margin-top: 1.9em;
   font-family: myriad pro;
   font-weight: bold;
@@ -119,14 +115,14 @@ nav ul li a:hover {
   line-height: 0px;
 }
 .about-text p:nth-child(2) {
-  color: silver;
+  color: #c5c5c5;
   font-size: 1.5em;
   font-family: myriad pro;
   font-weight: bold;
-  line-height: 5px;
+  line-height: 1em;
 }
 .about-text p:nth-child(3) {
-  color: #f2f2f2;;
+  color:#ffffff;
   text-align: left;
   font-family: calibri;
   font-size: 20px;
@@ -141,20 +137,20 @@ font-weight: normal;
     padding: 10px;
 }
 .about-text button {
+  background-color: #fff;
+  color: #f7f7f7;
   width: 130px;
   height: 42px;
   border-radius: 10px;
-  border: 1px solid white;
   font-family: calibri;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   outline: none;
   background: none;
-  color: #cbcbcb;
 }
 .about-text button:hover{
-    background-color:whitesmoke;
-    color: black;
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
 }
 /* about section ends */
 
@@ -162,7 +158,7 @@ font-weight: normal;
 footer {
   background: #111;
   padding: 15px 23px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   text-align: center;
   /* position: fixed; */
@@ -185,7 +181,7 @@ footer span a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+  background-color: #e6e3e3;
   margin: 20px 10px;
   border-radius: 50%;
 
@@ -204,7 +200,7 @@ footer span a:hover {
 }
 .social-icons div:hover i,
 .social div:hover i {
-  color: red;
+  color: #ff0000;
   transition: all ease 0.5s;
 }
 
@@ -232,8 +228,8 @@ footer span a:hover {
   margin: 0px;
   padding: 0px;
   line-height: 0px;
-  background-color: #000;
-  border: 1px solid black;
+  background-color: #000000;
+  border: 1px solid #1d1d1d;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 
 }
@@ -244,7 +240,7 @@ footer span a:hover {
 }
 .social i {
   font-size: 20px;
-  color: #f2f2f2;
+  color: #f8f8f8;
 }
 /* foorer section ends */
 /* responsive section */
@@ -282,7 +278,7 @@ footer span a:hover {
   section {
     height: 95px;
     background-image: none;
-    background-color:#121212;
+    background-color: #f7f7f7;
   }
   .toggle {
     display: block;
@@ -290,7 +286,7 @@ footer span a:hover {
   nav ul {
     margin: 0px;
     padding: 0px;
-    background-color: #121212;
+    background-color: silver;
     flex-direction: column;
     position: fixed;
     left: 0;
@@ -311,10 +307,10 @@ footer span a:hover {
     font-family: calibri;
     font-size: 1.4em;
     text-transform: uppercase;
-    color: whitesmoke;
+    color: #282828;
   }
   nav ul li a:hover {
-    color: red;
+    color: #121212;
   }
 
   .toggle:before {
@@ -322,7 +318,6 @@ footer span a:hover {
     font-family: fontAwesome;
     line-height: 30px;
     z-index: 200;
-    color: white;
   }
   .toggle.active:before {
     content: "\f00d";
@@ -350,5 +345,22 @@ footer span a:hover {
     width: 90%;
   }
 }
-
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  .row {
+    width: 100%;
+    margin-top: 0;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  input[type="submit"] {
+    width: 90%;
+    font-size: 18px;
+    align-items: center;
+  }
+  
+}
 /* responsive section ends */
