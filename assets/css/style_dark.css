@@ -286,7 +286,7 @@ footer span a:hover {
   nav ul {
     margin: 0px;
     padding: 0px;
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgb(0, 0, 0);
     flex-direction: column;
     position: fixed;
     left: 0;
