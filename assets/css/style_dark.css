@@ -31,7 +31,7 @@ nav {
   align-items: center;
   height: 60px;
   background-color: #000000;
-  box-shadow: 2px 2px 12px rgba(255, 255, 255, 0.548);
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   padding: 0px 5%;
 }
 nav ul {
@@ -85,7 +85,7 @@ nav ul li a:hover {
 .about-container {
   width: 80%;
   height: fit-content;
-  background: #000000;
+  background: #1b1b1b;
   border-radius: 20px;
   box-shadow: 2px 2px 12px rgba(255, 255, 255, 0.2);
   display: flex;
@@ -97,28 +97,28 @@ nav ul li a:hover {
 }
 .about-container img {
   margin: 100px;
-  height: auto;
-  width: 60%;
+  height: 400px;
+  width: 600px;
   border-radius: 15px;
-  box-shadow: 2px 5px 15px rgb(255, 255, 255);
+  box-shadow: 2px 5px 15px black;
 }
 .about-text {
-  width: 500px;
+  width: 80%;
   text-align: center;
 }
 .about-text p:nth-child(1) {
-  color: #ffffff;
-  margin-top: 1.9em;
+  color: #fcfcfc;
+  margin-top: 1em;
   font-family: myriad pro;
   font-weight: bold;
   font-size: 1.8em;
   line-height: 0px;
 }
 .about-text p:nth-child(2) {
-  color: #c5c5c5;
+  color: #ffffff;
   font-size: 1.5em;
   font-family: myriad pro;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1em;
 }
 .about-text p:nth-child(3) {
@@ -137,8 +137,6 @@ font-weight: normal;
     padding: 10px;
 }
 .about-text button {
-  background-color: #fff;
-  color: #f7f7f7;
   width: 130px;
   height: 42px;
   border-radius: 10px;
@@ -146,19 +144,22 @@ font-weight: normal;
   font-weight: bold;
   font-size: 14px;
   outline: none;
-  background: none;
+  background: black;
+  color: white;
 }
 .about-text button:hover{
     background-color:#ffffff;
     color: rgb(0, 0, 0);
 }
 /* about section ends */
-
+p{
+  color: #f7f7f7;
+}
 /* footer section starts */
 footer {
   background: #111;
   padding: 15px 23px;
-  color: rgb(255, 255, 255);
+  color: #fff;
   font-size: 16px;
   text-align: center;
   /* position: fixed; */
@@ -181,7 +182,7 @@ footer span a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e6e3e3;
+  background-color: #000000;
   margin: 20px 10px;
   border-radius: 50%;
 
@@ -191,7 +192,7 @@ footer span a:hover {
 }
 .social-icons i,
 .social i {
-  color: #000000;
+  color: #ffffff;
 }
 .social-icons div:hover {
   background-color: #000000;
@@ -205,7 +206,7 @@ footer span a:hover {
 }
 
 .copyright {
-  color: #565555;
+  color: #000000;
   font-size: 12px;
   position: absolute;
   left: 50%;
@@ -228,9 +229,9 @@ footer span a:hover {
   margin: 0px;
   padding: 0px;
   line-height: 0px;
-  background-color: #000000;
-  border: 1px solid #1d1d1d;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  background-color: #020202;
+  border: 1px solid #3b3b3b;
+  box-shadow: 2px 2px 12px rgba(167, 167, 167, 0.2);
 
 }
 .social div:hover {
@@ -240,7 +241,7 @@ footer span a:hover {
 }
 .social i {
   font-size: 20px;
-  color: #f8f8f8;
+  color: #ffffff;
 }
 /* foorer section ends */
 /* responsive section */
@@ -254,13 +255,13 @@ footer span a:hover {
     border-radius: 10px;
   }
   .about-container img {
-    height: 200px;
-    width: 90%;
+    height: 400px;
+    width: 600px;
   }
 
   .about-text,
   .contact-text {
-    width: 400px;
+    width: 80%;
   }
   .about-text p:nth-child(1) {
     font-size: 1.9em;
@@ -278,7 +279,7 @@ footer span a:hover {
   section {
     height: 95px;
     background-image: none;
-    background-color: #000000;
+    background-color: #f7f7f7;
   }
   .toggle {
     display: block;
@@ -286,7 +287,7 @@ footer span a:hover {
   nav ul {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(0, 0, 0);
+    background-color: silver;
     flex-direction: column;
     position: fixed;
     left: 0;
@@ -307,14 +308,13 @@ footer span a:hover {
     font-family: calibri;
     font-size: 1.4em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #282828;
   }
   nav ul li a:hover {
-    color: #ff0404;
+    color: #121212;
   }
 
   .toggle:before {
-    color: #e6e3e3;
     content: "\f0c9";
     font-family: fontAwesome;
     line-height: 30px;

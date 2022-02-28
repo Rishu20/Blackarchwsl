@@ -97,18 +97,18 @@ nav ul li a:hover {
 }
 .about-container img {
   margin: 100px;
-  height: auto;
-  width: 60%;
+  height: 400px;
+  width: 600px;
   border-radius: 15px;
   box-shadow: 2px 5px 15px black;
 }
 .about-text {
-  width: 500px;
+  width: 80%;
   text-align: center;
 }
 .about-text p:nth-child(1) {
   color: #403e3e;
-  margin-top: 1.9em;
+  margin-top: 1em;
   font-family: myriad pro;
   font-weight: bold;
   font-size: 1.8em;
@@ -118,7 +118,7 @@ nav ul li a:hover {
   color: #3e3d3d;
   font-size: 1.5em;
   font-family: myriad pro;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1em;
 }
 .about-text p:nth-child(3) {
@@ -252,13 +252,13 @@ footer span a:hover {
     border-radius: 10px;
   }
   .about-container img {
-    height: 200px;
-    width: 90%;
+    height: 400px;
+    width: 600px;
   }
 
   .about-text,
   .contact-text {
-    width: 400px;
+    width: 80%;
   }
   .about-text p:nth-child(1) {
     font-size: 1.9em;
