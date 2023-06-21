@@ -56,7 +56,7 @@
 .nav-links li {
   position: relative;
 }
-.nav-links li a::before {
+.nav-links li a::after {
   content: "";
   display: block;
   height: 3px;
@@ -66,7 +66,7 @@
   transition: all ease-in-out 250ms;
   margin: 0 0 0 10%;
 }
-.nav-links li a:hover::before {
+.nav-links li a:hover::after {
   width: 80%;
 }
 
