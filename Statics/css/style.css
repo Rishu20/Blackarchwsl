@@ -94,18 +94,10 @@ section {
   overflow: hidden;
   /* background: #000; */
 }
-.cc-1 .content-wrapper .ima h2 {
+.btn{
   width: 100%;
-  background: #0000002e;
-  padding: 0.6rem;
-}
-.cc-1 .content-wrapper .ima h2::after {
-  content: "**(The Model Is Depreciated could only make predictions upto 2021-08-04)";
-  padding: 0.6rem;
-  font-size: 1rem;
-  text-align: center;
-  font-weight: bold;
-  width: 100%;
+  display: flex;
+  gap: 1rem;
 }
 .ima {
   aspect-ratio: 5/3;
