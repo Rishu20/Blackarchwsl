@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900;1000&family=Open+Sans:wght@400;500;600;700;800&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap");
+/* 
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-family: "Mulish", sans-serif;
+}
+p {
+  max-width: 85ch;
+  padding: 1em;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  padding-top: 4rem;
+  /* display: none; */
+}
+.cc-1 {
+  height: fit-content;
+  width: 100%;
+}
+.cc-1 .content-wrapper {
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+  padding: 5rem 2rem;
+  display: flex;
+}
+.cc-1 .content-wrapper .text {
+  padding: 0.6rem 2rem;
+  height: fit-content;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cc-1 .content-wrapper .text h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: 900;
+}
+.cc-1 .content-wrapper .text p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cc-1 .content-wrapper .text button {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  width: 70%;
+  padding: 0.6rem 1.25rem;
+  background: #0084f0;
+  color: #fff;
+  border-radius: 0.65rem;
+  border: none;
+  box-shadow: 0.15rem 0.15rem 1rem rgb(28, 28, 28);
+}
+.cc-1 .content-wrapper .text button:hover {
+  background-color: #221;
+}
+.cc-1 .content-wrapper .ima {
+  height: 100%;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  /* background: #000; */
+}
+.cc-1 .content-wrapper .ima h2 {
+  width: 100%;
+  background: #0000002e;
+  padding: 0.6rem;
+}
+.cc-1 .content-wrapper .ima h2::after {
+  content: "**(The Model Is Depreciated could only make predictions upto 2021-08-04)";
+  padding: 0.6rem;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+.ima {
+  aspect-ratio: 5/3;
+  border-radius: 0.65rem;
+  box-shadow: 0.6rem 0.6rem 1.25rem rgb(116, 116, 116);
+}
+.ima img {
+  color: white;
+  height: 100%;
+  width: 100%;
+}
+.cc-2 {
+  height: fit-content;
+  width: 100%;
+  background: #e4e4e4;
+}
+.cc-2 .content-wrapper {
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0;
+}
+.cc-2 .content-wrapper .text {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.cc-2 .content-wrapper .text h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+}
+.cc-2 .content-wrapper .text h1 b {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: #6db0bc;
+}
+.cc-2 .content-wrapper .text p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.cc-3 {
+  height: fit-content;
+  width: 100%;
+}
+.cc-3 .content-wrapper {
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0;
+}
+.cc-3 .content-wrapper .text {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+.cc-3 .content-wrapper .text h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+}
+.cc-3 .content-wrapper .text h1 b {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: #6db0bc;
+}
+.cc-3 .content-wrapper .text p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.cc-4 {
+  height: fit-content;
+  width: 100%;
+  background: #e4e4e4;
+}
+.cc-4 .content-wrapper {
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0;
+}
+.cc-4 .content-wrapper .text {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+.cc-4 .content-wrapper .text h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+}
+.cc-4 .content-wrapper .text h1 b {
+  font-size: 4.5rem;
+  font-weight: 800;
+  color: #6db0bc;
+}
+
+.cc-4 .content-wrapper .text h2 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  width: 100%;
+}
+
+.cc-4 .content-wrapper .text ul {
+  width: 90%;
+}
+.cc-4 .content-wrapper .text ul li {
+  list-style-type: square;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.cc-4 .content-wrapper .text ul li i {
+  padding: 0.2rem 0.5rem;
+  background: #9f9f9f33;
+}
+
+@media screen and (max-width: 1150px) {
+  .cc-3 .content-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+  .cc-1 .content-wrapper {
+    flex-direction: column-reverse;
+    width: 100%;
+    padding: 0;
+    margin-top: 2rem;
+  }
+  .cc-1 .content-wrapper .text {
+    height: fit-content;
+    width: 100%;
+    padding: 1.25rem 0;
+  }
+  .cc-1 .content-wrapper .text h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .cc-1 .content-wrapper .text p {
+    text-align: left;
+  }
+  .cc-1 .content-wrapper .ima {
+    width: 100%;
+  }
+  .cc-1 .content-wrapper .text button {
+    font-size: 1.35em;
+  }
+  .cc-2 .content-wrapper {
+    width: 100%;
+  }
+  .cc-4 .content-wrapper .text,
+  .cc-3 .content-wrapper .text,
+  .cc-2 .content-wrapper .text {
+    width: 100%;
+    padding: 0;
+  }
+  .cc-4 .content-wrapper .text h1,
+  .cc-3 .content-wrapper .text h1,
+  .cc-2 .content-wrapper .text h1 {
+    font-size: 2rem;
+  }
+  .cc-4 .content-wrapper .text h1 b,
+  .cc-3 .content-wrapper .text h1 b,
+  .cc-2 .content-wrapper .text h1 b {
+    font-size: 2.5rem;
+  }
+  .cc-4 .content-wrapper,
+  .cc-4 .content-wrapper .text {
+    width: 100%;
+  }
+  .cc-4 .content-wrapper .text {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .cc-3 .content-wrapper .graph {
+    display: none;
+  }
+}
